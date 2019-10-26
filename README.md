@@ -10,3 +10,5 @@ Components:
 8. 1x On/Off switch
 9. 1x DC/DC step-up converter
 10. 1x SG90 servo motor
+11. 1x Rectifier diode
+12. 1x 6.3v 820uF Capacitor

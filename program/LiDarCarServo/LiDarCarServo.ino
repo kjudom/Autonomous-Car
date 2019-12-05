@@ -115,6 +115,14 @@ void RightMove(int speed, bool dir)
     analogWrite(RSpd, speed);
 }
 
+void motorsStop()
+{
+  digitalWrite(LSpd, LOW); 
+  digitalWrite(LDir, LOW); 
+  digitalWrite(RSpd, LOW); 
+  digitalWrite(RDir, LOW); 
+}
+
 void turnRight()
 {
   noInterrupts();
